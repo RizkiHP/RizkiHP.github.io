@@ -185,21 +185,21 @@
             <form name="rhp-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap :</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="name" placeholder="Nama Lengkap" required minlength="3" />
               </div>
               <div class="mb-3">
-                <label for="telp" class="form-label">Nomor Telepon :</label>
-                <input type="text" class="form-control" id="telp" aria-describedby="telp" name="telp" />
+                <label for="telp" class="form-label">No. Telepon :</label>
+                <input type="text" class="form-control" id="telp" aria-describedby="telp" name="telp" placeholder="No. Telepon" required maxlength="15" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email :</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" placeholder="Email" required />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan :</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="Pesan" required></textarea>
               </div>
-              <button type="submit" class="btn btn-outline-primary btn-kirim">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Loading...
