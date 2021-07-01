@@ -4,9 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Landing Page | My Portfolio | Rizki Hadi Prayitno" />
+    <meta name="author" content="Rizki Hadi Prayitno" />
 
     <!-- Icons Title -->
-    <link rel="icon" href="img/icons.png" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <title>My Portfolio | Rizki Hadi Prayitno</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -19,21 +22,17 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
-
-    <title>My Portfolio | Rizki Hadi Prayitno</title>
   </head>
-
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home"><img src="img/icons.png" alt="" width="30" height="24" class="d-inline-block align-text-top" /> RHP</a>
+        <a class="navbar-brand" href="#home"><img src="img/favicon.png" alt="" width="30" height="30" class="d-inline-block align-text-top" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-lg-auto">
+        <div class="collapse navbar-collapse fw-bold text-bg-white" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
             </li>
@@ -54,7 +53,7 @@
 
     <!-- Jumbotron -->
     <section id="home" class="jumbotron text-center">
-      <img src="img/foto.jpg" class="rounded-circle img-thumbnail" alt="Rizki Hadi Prayitno" width="200" height="200" />
+      <img src="img/foto.jpg" class="rounded-circle img-thumbnail border-primary" alt="Rizki Hadi Prayitno" width="200" height="200" />
       <h1 class="display-4">Rizki Hadi Prayitno</h1>
       <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -103,61 +102,150 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mt-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Projects 1" />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
-                  <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                </p>
+          <!-- Href trigger modal 1 -->
+          <div class="col-md-4 mt-3" data-aos="flip-left" data-aos-duration="500">
+            <div class="card img-thumbnail">
+              <a href="#" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#modalImg1"><img src="img/projects/1.jpg" class="card-img-top" alt="Projects 1" /></a>
+            </div>
+          </div>
+          <!-- Modal 1 -->
+          <div class="modal fade" id="modalImg1" tabindex="-1" aria-labelledby="modalImg1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content border-primary">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalImg1Label">Project 1</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/projects/1.jpg" class="card-img-top" alt="Projects 1" />
+                  <p>
+                    Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
+                    <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Projects 2" />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
-                  <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                </p>
+          <!-- End Modal 1 -->
+
+          <!-- Href trigger modal 2 -->
+          <div class="col-md-4 mt-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+            <div class="card img-thumbnail">
+              <a href="#" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#modalImg2"><img src="img/projects/2.jpg" class="card-img-top" alt="Projects 2" /></a>
+            </div>
+          </div>
+          <!-- Modal 2 -->
+          <div class="modal fade" id="modalImg2" tabindex="-1" aria-labelledby="modalImg2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content border-primary">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalImg2Label">Project 2</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/projects/2.jpg" class="card-img-top" alt="Projects 2" />
+                  <p>
+                    Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
+                    <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End Modal 2 -->
+
+          <!-- Href trigger modal 3 -->
           <div class="col-md-4 mt-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
-            <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Projects 3" />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
-                  <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                </p>
+            <div class="card img-thumbnail">
+              <a href="#" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#modalImg3"><img src="img/projects/3.jpg" class="card-img-top" alt="Projects 3" /></a>
+            </div>
+          </div>
+          <!-- Modal 3 -->
+          <div class="modal fade" id="modalImg3" tabindex="-1" aria-labelledby="modalImg3Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content border-primary">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalImg3Label">Project 3</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/projects/3.jpg" class="card-img-top" alt="Projects 3" />
+                  <p>
+                    Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
+                    <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End Modal 3 -->
+
+          <!-- Href trigger modal 4 -->
           <div class="col-md-4 mt-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
-            <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="Projects 4" />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
-                  <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                </p>
+            <div class="card img-thumbnail">
+              <a href="#" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#modalImg4"><img src="img/projects/4.jpg" class="card-img-top" alt="Projects 4" /></a>
+            </div>
+          </div>
+          <!-- Modal 4 -->
+          <div class="modal fade" id="modalImg4" tabindex="-1" aria-labelledby="modalImg4Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content border-primary">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalImg4Label">Project 4</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/projects/4.jpg" class="card-img-top" alt="Projects 4" />
+                  <p>
+                    Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
+                    <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End Modal 4 -->
+
+          <!-- Href trigger modal 5 -->
           <div class="col-md-4 mt-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
-            <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="Projects 5" />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
-                  <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                </p>
+            <div class="card img-thumbnail">
+              <a href="#" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#modalImg5"><img src="img/projects/5.jpg" class="card-img-top" alt="Projects 5" /></a>
+            </div>
+          </div>
+          <!-- Modal 5 -->
+          <div class="modal fade" id="modalImg5" tabindex="-1" aria-labelledby="modalImg5Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content border-primary">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalImg5Label">Project 5</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/projects/5.jpg" class="card-img-top" alt="Projects 5" />
+                  <p>
+                    Some quick example text to build on the card title and make up the bulk of the card's content. Photo by <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">XPS</a> on
+                    <a href="https://unsplash.com/@xps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End Modal 5 -->
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -221,7 +309,7 @@
     <!-- End Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
+    <footer class="bg-primary text-white text-center pb-3">
       <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/rizki_hp/" target="_blank" class="text-white fw-bold text-decoration-none">Rizki Hadi Prayitno</a>.</p>
     </footer>
     <!-- End Footer -->
@@ -231,6 +319,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <!-- Plugin JS AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
@@ -238,9 +327,9 @@
       });
     </script>
 
+    <!-- Plugin JS GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.min.js"></script>
-
     <script>
       gsap.registerPlugin(TextPlugin);
       gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Web Developer' });
@@ -249,6 +338,7 @@
       gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
     </script>
 
+    <!-- My JS -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxpdF0f2mMESDKs0mN_wNfwkpcq7lsOFmTrssCjeoJGQ3mxTgKUkBPNmIH_R2vjsvaLGw/exec';
       const form = document.forms['rhp-contact-form'];
