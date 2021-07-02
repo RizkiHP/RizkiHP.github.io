@@ -10,3 +10,11 @@
 section {
   padding-top: 5rem;
 }
+
+#top a {
+  position: fixed;
+  padding: 1rem;
+  right: 1rem;
+  bottom: 2rem;
+  /* background-color: transparent; */
+}
