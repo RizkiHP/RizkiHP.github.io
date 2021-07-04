@@ -1,10 +1,10 @@
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #cfe2ff;
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: #cfe2ff;
 }
 
 section {
@@ -27,4 +27,182 @@ section {
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
+}
+/* Facebook */
+.btn-outline-light-facebook {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-facebook:hover {
+  color: #3b5998;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-facebook,
+.btn-outline-facebook:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-facebook,
+.btn-outline-facebook,
+.btn-outline-facebook:active,
+.btn-outline-facebook.active {
+  color: #3b5998;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-facebook:focus,
+.btn-outline-facebook:focus,
+.btn-outline-facebook:active:focus,
+.btn-outline-facebook.active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-facebook:disabled,
+.btn-outline-facebook.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+/* Instagram */
+.btn-outline-light-instagram {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-instagram:hover {
+  color: rgb(221, 42, 123);
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-instagram,
+.btn-outline-instagram:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-instagram,
+.btn-outline-instagram,
+.btn-outline-instagram:active,
+.btn-outline-instagram.active {
+  color: rgb(221, 42, 123);
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-instagram:focus,
+.btn-outline-instagram:focus,
+.btn-outline-instagram:active:focus,
+.btn-outline-instagram.active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-instagram:disabled,
+.btn-outline-instagram.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+/* Twitter */
+.btn-outline-light-twitter {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-twitter:hover {
+  color: #1da1f2;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-twitter,
+.btn-outline-twitter:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-twitter,
+.btn-outline-twitter,
+.btn-outline-twitter:active,
+.btn-outline-twitter.active {
+  color: #1da1f2;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-twitter:focus,
+.btn-outline-twitter:focus,
+.btn-outline-twitter:active:focus,
+.btn-outline-twitter.active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-twitter:disabled,
+.btn-outline-twitter.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+/* LinkedIn */
+.btn-outline-light-linkedin {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-linkedin:hover {
+  color: #007bb5;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-linkedin,
+.btn-outline-linkedin:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-linkedin,
+.btn-outline-linkedin,
+.btn-outline-linkedin:active,
+.btn-outline-linkedin.active {
+  color: #007bb5;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-linkedin:focus,
+.btn-outline-linkedin:focus,
+.btn-outline-linkedin:active:focus,
+.btn-outline-linkedin.active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-linkedin:disabled,
+.btn-outline-linkedin.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+/* Youtube */
+.btn-outline-light-youtube {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-youtube:hover {
+  color: #ff0000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-youtube,
+.btn-outline-youtube:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-youtube,
+.btn-outline-youtube,
+.btn-outline-youtube:active,
+.btn-outline-youtube.active {
+  color: #ff0000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-youtube:focus,
+.btn-outline-youtube:focus,
+.btn-outline-youtube:active:focus,
+.btn-outline-youtube.active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-youtube:disabled,
+.btn-outline-youtube.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+
+/* .card .img-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+} */
+.img-thumbnail:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: 0.5;
 }
