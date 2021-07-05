@@ -1,6 +1,14 @@
 .jumbotron {
-  padding-top: 6rem;
-  background-color: #cfe2ff;
+  /* background-color: #cfe2ff; */
+  background-image: url('../img/header-bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
+}
+
+.jumbotron h1,
+p {
+  text-shadow: 1px 1px #cfe2ff;
 }
 
 #projects {
