@@ -16,7 +16,6 @@ section {
   padding: 1rem;
   right: 1rem;
   bottom: 3rem;
-  /* background-color: transparent; */
 }
 
 .btn-social {
@@ -28,6 +27,7 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 /* Facebook */
 .btn-outline-light-facebook {
   color: #f8f9fa;
@@ -94,6 +94,7 @@ section {
   color: #f8f9fa;
   background-color: transparent;
 }
+
 /* Twitter */
 .btn-outline-light-twitter {
   color: #f8f9fa;
@@ -127,6 +128,7 @@ section {
   color: #f8f9fa;
   background-color: transparent;
 }
+
 /* LinkedIn */
 .btn-outline-light-linkedin {
   color: #f8f9fa;
